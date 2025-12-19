@@ -1,0 +1,155 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+header {  
+display: flex;
+padding: 10px 20px;
+justify-content: space-between;
+align-items: center;
+align-content: space-between;
+background-color: #000000;
+}
+.logo {
+width: 180px;
+height: 80px;
+flex-shrink: 0;
+background: #D9D9D9;
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-weight: bold;
+font-size: 1.25rem;
+color: #000000;
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+
+ul {
+display: flex;
+width: 640px;
+justify-content: flex-end;
+align-items: center;
+gap: 20px;
+color: #ffffff;
+
+font-family: Futura;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
+main{
+background-image: url("image/nanobana.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+h1{
+ display: flex;
+width: 1440px;
+height: 810px;
+padding: 0 357px 0 356px;
+justify-content: center;
+align-items: center;
+
+color: #ffffff;
+text-align: center;
+font-family: Futura;
+font-size: 128px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.about 
+{width: 100%;
+height: 755px;
+background: #000000;
+color: #FFF;
+text-align: center;
+font-family: Futura;
+font-size: 48px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;}
+
+.about p{color: #FFF;
+text-align: center;
+font-family: Futura;
+font-size: 48px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;}
+
+
+
+.works{width: 100%;
+background: #000000;
+color: #FFF;
+text-align: center;
+font-family: Futura;
+font-size: 48px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;}
+
+
+.works img{width:300px; 
+height:300px;
+flex-shrink: 0;
+background: #FFF;}
+
+.contact {
+width: 100%;
+height: 755px;
+background-color: #000000;
+
+
+color: #FFF;
+text-align: center;
+font-family: Futura;
+font-size: 48px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+
+
+
+
+
+footer {
+display: flex;
+width: 1440px;
+padding-bottom: 597px;
+flex-direction: column;
+align-items: flex-start;
+background: #2f2f2f;
+
+color: #FFF;
+font-family: Futura;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+
+display: flex;
+width: 100%;
+height: 85px;
+padding: 10px;
+justify-content: space-between;
+align-items: center;
+align-content: space-between;
+background: #2c2c2c;
+}
